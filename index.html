@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping Cart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-sans">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-orange-600">Shopping Cart</h1>
+      <div class="flex space-x-4">
+        <button class="relative">
+          ❤️ <span class="absolute top-[-10px] right-[-10px] bg-red-500 text-white text-xs px-1 rounded-full">0</span>
+        </button>
+        <button class="relative">
+          🛒 <span class="absolute top-[-10px] right-[-10px] bg-green-500 text-white text-xs px-1 rounded-full">0</span>
+        </button>
+        <span class="font-semibold">$0.00</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8 flex">
+    <!-- Optional: Right Sidebar -->
+    <aside class="w-64 bg-white shadow-md p-4 fixed right-0 top-20 h-full hidden lg:block">
+      <h2 class="text-xl font-semibold text-orange-600 mb-4">Quick Links</h2>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#" class="text-blue-700 hover:underline">Home</a></li>
+        <li><a href="add-address.html" class="text-blue-700 hover:underline">Add Address</a></li>
+        <li><a href="contact.html" class="text-blue-700 hover:underline">Contact</a></li>
+        <li><a href="queries.html" class="text-blue-700 hover:underline">Queries</a></li>
+      </ul>
+    </aside>
+  
+    <!-- Product Grid -->
+    <section class="flex-1 pr-72">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      
+      <!-- Product Categories Sidebar -->
+     
+      <!-- Products Grid -->
+      <section class="col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Example Product Card -->
+        <div class="bg-white shadow-md round=50% overflow-hidden">
+          <img src="images/image (1).jpg" alt="Motorcycle" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Toy cart</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (2).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">keychain</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (3).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">lipbalm</div>
+            <h3 class="text-lg font-semibold">$100</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=400&q=80" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Keyboard</div>
+            <h3 class="text-lg font-semibold">$500.00 </h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (4).jpg" alt="Motorcycle" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">mirror</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (5).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">moon lamp</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (6).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Scrunchy</div>
+            <h3 class="text-lg font-semibold">$100</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (7).jpg" alt="Motorcycle" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">soft candle</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (8).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">clock</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (9).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Cooling Glass</div>
+            <h3 class="text-lg font-semibold">$100</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (10).jpg" alt="Motorcycle" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Smart Watch</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (11).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">multi-usable stand</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (12).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Ice Roller</div>
+            <h3 class="text-lg font-semibold">$100</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (13).jpg" alt="Motorcycle" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Stand</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (14).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600"> Body Scrub</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (15).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Palaroid Camera</div>
+            <h3 class="text-lg font-semibold">$100</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (16).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600"> Body Scrub</div>
+            <h3 class="text-lg font-semibold">$15.00</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl overflow-hidden">
+          <img src="images/image (17).jpg" alt="Product" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="text-sm text-gray-600">Palaroid Camera</div>
+            <h3 class="text-lg font-semibold">$100</h3>
+            <button class="mt-2 bg-orange-500 text-white px-4 py-1 rounded-lg ">View products</button>
+          </div>
+        </div>
+    
+      
+
+        <!-- Repeat Product Cards -->
+        <!-- You can duplicate the above div with different data -->
+
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+
+
